@@ -670,7 +670,7 @@ export default function TenthGradeContent() {
   </p>
   <ul className="list-disc ml-6">
     <li>√2 + √2 = 2√2</li>
-    <li>√5 + √3 can't be simplified further</li>
+    <li>√5 + √3 can&apos;t be simplified further</li>
     <li>Use distributive property and FOIL when multiplying binomials with radicals</li>
   </ul>
 
