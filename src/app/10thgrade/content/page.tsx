@@ -132,15 +132,15 @@ export default function TenthGradeContent() {
     Inequalities are used to compare values and show the range of possible solutions instead of just one exact number. They are essential for real-world decisions where outcomes vary.
   </p>
 
-  <h3 className="text-2xl font-semibold"> Understanding Inequality Symbols</h3>
+  <h3 className="text-2xl font-semibold">Understanding Inequality Symbols</h3>
   <ul className="list-disc ml-6">
-    <li><strong>&lt;</strong>: Less than</li>
-    <li><strong>&gt;</strong>: Greater than</li>
-    <li><strong>&le;</strong>: Less than or equal to</li>
-    <li><strong>&ge;</strong>: Greater than or equal to</li>
+    <li><strong>&lt; :</strong> Less than</li>
+    <li><strong>&gt; :</strong> Greater than</li>
+    <li><strong>&le; :</strong> Less than or equal to</li>
+    <li><strong>&ge; :</strong> Greater than or equal to</li>
   </ul>
 
-  <h3 className="text-2xl font-semibold mt-6"> Solving Inequalities</h3>
+  <h3 className="text-2xl font-semibold mt-6">Solving Inequalities</h3>
   <p>Steps to solve inequalities:</p>
   <ol className="list-decimal ml-6">
     <li>Isolate the variable on one side of the inequality.</li>
@@ -153,56 +153,91 @@ export default function TenthGradeContent() {
     <li>Divide by -2 (flip the sign): x &lt; 2</li>
   </ol>
 
-  <h3 className="text-2xl font-semibold mt-6"> Graphing Inequalities</h3>
+  <h3 className="text-2xl font-semibold mt-6">Graphing Inequalities</h3>
   <p>
     Graphing inequalities involves shading the region of the graph that satisfies the inequality. Use a dashed line for &lt; or &gt; and a solid line for &le; or &ge;.
   </p>
+  <ul className="list-disc ml-6">
+    <li>Choose a test point to determine which side to shade</li>
+    <li>Always label the boundary line clearly</li>
+    <li>Make sure to flip the inequality sign when needed</li>
+  </ul>
 
-  <h3 className="text-2xl font-semibold mt-6"> Real-World Applications</h3>
+  <h3 className="text-2xl font-semibold mt-6">Real-World Applications</h3>
   <p>Inequalities are used in:</p>
   <ul className="list-disc ml-6">
-    <li>Budgeting (e.g., spending &le; income)</li>
+    <li>Budgeting (e.g., spending ≤ income)</li>
     <li>Speed limits (e.g., speed &lt; 60 mph)</li>
     <li>Production constraints in factories</li>
+    <li>Dietary limits or requirements</li>
+  </ul>
+
+  <h3 className="text-2xl font-semibold mt-6">Practice Problems</h3>
+  <ul className="list-disc ml-6">
+    <li>Solve and graph x + 3 &gt; 7</li>
+    <li>Solve -4x ≤ 12 and graph the solution on a number line</li>
+    <li>Write an inequality to represent “at least 80 points to win”</li>
+    <li>Graph y &lt; 2x + 1 and describe the shaded region</li>
+    <li>Explain what happens when you divide both sides by a negative number</li>
   </ul>
 </div>
+
 
 {/* Topic 4 */}
 <div className="space-y-6">
   <h2 className="text-3xl font-semibold text-center">Topic 4: Quadratic Equations</h2>
   <p className="text-lg text-gray-700 text-center">
-    Quadratic equations are equations of the form ax² + bx + c = 0. They are fundamental in algebra and have applications in physics, engineering, and economics.
+    Quadratic equations are equations of the form <strong>ax² + bx + c = 0</strong>. They are fundamental in algebra and have applications in physics, engineering, and economics.
   </p>
 
-  <h3 className="text-2xl font-semibold"> Standard Form of a Quadratic Equation</h3>
-  <p>The standard form is ax² + bx + c = 0, where:</p>
+  <h3 className="text-2xl font-semibold">Standard Form of a Quadratic Equation</h3>
+  <p>The standard form is <strong>ax² + bx + c = 0</strong>, where:</p>
   <ul className="list-disc ml-6">
-    <li><strong>a</strong>: Coefficient of x²</li>
-    <li><strong>b</strong>: Coefficient of x</li>
-    <li><strong>c</strong>: Constant term</li>
+    <li><strong>a:</strong> Coefficient of x²</li>
+    <li><strong>b:</strong> Coefficient of x</li>
+    <li><strong>c:</strong> Constant term</li>
   </ul>
 
-  <h3 className="text-2xl font-semibold mt-6"> Methods to Solve Quadratic Equations</h3>
+  <h3 className="text-2xl font-semibold mt-6">Methods to Solve Quadratic Equations</h3>
   <p>There are three main methods:</p>
   <ol className="list-decimal ml-6">
     <li><strong>Factoring:</strong> Express the equation as (x + p)(x + q) = 0 and solve for x.</li>
     <li><strong>Completing the Square:</strong> Rewrite the equation in the form (x + d)² = e and solve for x.</li>
-    <li><strong>Quadratic Formula:</strong> Use the formula x = (-b &plusmn; √(b² - 4ac)) / 2a.</li>
+    <li><strong>Quadratic Formula:</strong> Use the formula <br />
+      <span className="font-mono">x = (-b ± √(b² - 4ac)) / 2a</span>
+    </li>
   </ol>
+  <p>Choosing the right method depends on the structure of the equation and ease of simplification.</p>
 
-  <h3 className="text-2xl font-semibold mt-6"> Graphing Quadratic Equations</h3>
+  <h3 className="text-2xl font-semibold mt-6">Graphing Quadratic Equations</h3>
   <p>
     The graph of a quadratic equation is a parabola. The vertex represents the maximum or minimum point, and the axis of symmetry divides the parabola into two mirror images.
   </p>
+  <ul className="list-disc ml-6">
+    <li><strong>Opens upward</strong> if a &gt; 0</li>
+    <li><strong>Opens downward</strong> if a &lt; 0</li>
+    <li>Vertex is at <strong>(-b / 2a, f(-b / 2a))</strong></li>
+    <li>The y-intercept is the value of <strong>c</strong></li>
+  </ul>
 
-  <h3 className="text-2xl font-semibold mt-6"> Real-World Applications</h3>
+  <h3 className="text-2xl font-semibold mt-6">Real-World Applications</h3>
   <p>Quadratic equations are used in:</p>
   <ul className="list-disc ml-6">
     <li>Projectile motion in physics</li>
-    <li>Maximizing profit in business</li>
-    <li>Designing parabolic structures like bridges</li>
+    <li>Maximizing or minimizing profit and area</li>
+    <li>Designing parabolic structures like bridges, arches, and satellite dishes</li>
+  </ul>
+
+  <h3 className="text-2xl font-semibold mt-6">Practice Problems</h3>
+  <ul className="list-disc ml-6">
+    <li>Solve x² + 5x + 6 = 0 by factoring</li>
+    <li>Use the quadratic formula to solve 2x² - 4x - 6 = 0</li>
+    <li>Complete the square to solve x² + 6x + 5 = 0</li>
+    <li>Graph y = x² - 4x + 3 and identify the vertex and axis of symmetry</li>
+    <li>Write a real-world quadratic scenario involving profit or height</li>
   </ul>
 </div>
+
 {/* Topic 5 */}
 <div className="space-y-6">
   <h2 className="text-3xl font-semibold text-center">Topic 5: Polynomials</h2>
@@ -273,12 +308,80 @@ export default function TenthGradeContent() {
 </div>
 {/* Topic 6 */}
 <div className="space-y-6">
-  <h2 className="text-3xl font-semibold text-center">Topic 6: Exponential Functions</h2>
+  <h2 className="text-3xl font-semibold text-center">Topic 6: Functions & Graphing</h2>
+  <p className="text-lg text-gray-700 text-center">
+    Understanding functions and their graphs is fundamental for analyzing relationships in math and the real world. Functions describe how one quantity depends on another.
+  </p>
+
+  <h3 className="text-2xl font-semibold">Function Notation</h3>
+  <p>
+    Function notation is a way to name functions and evaluate them for specific inputs. Instead of using y, we write f(x), which means “the value of function f at x.”
+  </p>
+  <ul className="list-disc ml-6">
+    <li><strong>f(x):</strong> Read as “f of x”</li>
+    <li><strong>Evaluating:</strong> Replace x with a number to find the output, e.g., if f(x) = 2x + 3, then f(4) = 11</li>
+    <li>Helps clearly define input-output relationships</li>
+  </ul>
+
+  <h3 className="text-2xl font-semibold mt-6">Types of Functions</h3>
+  <p>
+    Different functions model different kinds of behavior. Key types include:
+  </p>
+  <ul className="list-disc ml-6">
+    <li><strong>Linear:</strong> Forms a straight line; constant rate of change</li>
+    <li><strong>Quadratic:</strong> Forms a parabola; involves x²; includes max or min values</li>
+    <li><strong>Exponential:</strong> Grows or decays rapidly; variable in the exponent</li>
+  </ul>
+
+  <h3 className="text-2xl font-semibold mt-6">Graphing Functions</h3>
+  <p>
+    Graphing allows you to visualize how a function behaves. Key features to identify:
+  </p>
+  <ul className="list-disc ml-6">
+    <li><strong>x-intercept(s):</strong> Where the graph crosses the x-axis</li>
+    <li><strong>y-intercept:</strong> Where the graph crosses the y-axis</li>
+    <li><strong>Domain:</strong> All possible x-values</li>
+    <li><strong>Range:</strong> All possible y-values</li>
+    <li><strong>End behavior:</strong> Describes what happens to y as x gets very large or very small</li>
+  </ul>
+
+  <h3 className="text-2xl font-semibold mt-6">Transformations of Functions</h3>
+  <p>
+    Transformations change the appearance of a graph without changing its basic shape.
+  </p>
+  <ul className="list-disc ml-6">
+    <li><strong>Shifts:</strong> Move the graph left, right, up, or down</li>
+    <li><strong>Reflections:</strong> Flip the graph over the x- or y-axis</li>
+    <li><strong>Stretches/Compressions:</strong> Make the graph narrower or wider</li>
+  </ul>
+  <p>Transformations help model changes in real-world behavior and patterns over time.</p>
+
+  <h3 className="text-2xl font-semibold mt-6">Real-World Applications</h3>
+  <ul className="list-disc ml-6">
+    <li>Modeling population growth or decline</li>
+    <li>Predicting profit or cost in business</li>
+    <li>Tracking speed and motion in physics</li>
+    <li>Understanding visual data in graphs and charts</li>
+  </ul>
+
+  <h3 className="text-2xl font-semibold mt-6">Practice Problems</h3>
+  <ul className="list-disc ml-6">
+    <li>Evaluate f(x) = 3x - 2 for x = 5</li>
+    <li>Identify the type of function from a given equation</li>
+    <li>Graph y = x² - 4 and label the vertex and axis of symmetry</li>
+    <li>Describe how the graph of f(x) = x² changes if it becomes f(x) = (x - 3)² + 2</li>
+    <li>Compare linear vs. exponential growth with sample values</li>
+  </ul>
+</div>
+
+{/* Topic 7 */}
+<div className="space-y-6">
+  <h2 className="text-3xl font-semibold text-center">Topic 7: Exponential Functions</h2>
   <p className="text-lg text-gray-700 text-center">
     Exponential functions are equations where the variable is in the exponent, such as <strong>y = a * b^x</strong>. These functions model rapid growth or decay in real-world scenarios.
   </p>
 
-  <h3 className="text-2xl font-semibold"> Understanding Exponential Growth and Decay</h3>
+  <h3 className="text-2xl font-semibold">Understanding Exponential Growth and Decay</h3>
   <p>
     Exponential growth occurs when a quantity increases by the same percentage over equal time intervals. Exponential decay occurs when a quantity decreases by the same percentage over equal time intervals.
   </p>
@@ -286,23 +389,42 @@ export default function TenthGradeContent() {
     <li><strong>Growth:</strong> y = a * (1 + r)^t</li>
     <li><strong>Decay:</strong> y = a * (1 - r)^t</li>
   </ul>
+  <p>
+    In both cases, <strong>a</strong> is the initial value, <strong>r</strong> is the rate of growth or decay (as a decimal), and <strong>t</strong> is time.
+  </p>
 
-  <h3 className="text-2xl font-semibold mt-6"> Graphing Exponential Functions</h3>
+  <h3 className="text-2xl font-semibold mt-6">Graphing Exponential Functions</h3>
   <p>
     Exponential functions have a curve that increases or decreases rapidly. The graph has a horizontal asymptote, which the curve approaches but never touches.
   </p>
+  <ul className="list-disc ml-6">
+    <li>Growth curves rise from left to right</li>
+    <li>Decay curves fall from left to right</li>
+    <li>The y-intercept is always the initial value <strong>a</strong></li>
+  </ul>
 
-  <h3 className="text-2xl font-semibold mt-6"> Real-World Applications</h3>
+  <h3 className="text-2xl font-semibold mt-6">Real-World Applications</h3>
   <p>Exponential functions are used in:</p>
   <ul className="list-disc ml-6">
     <li>Population growth</li>
     <li>Radioactive decay</li>
     <li>Compound interest in finance</li>
+    <li>Spread of diseases or information</li>
+  </ul>
+
+  <h3 className="text-2xl font-semibold mt-6">Practice Problems</h3>
+  <ul className="list-disc ml-6">
+    <li>Identify whether a given equation represents growth or decay</li>
+    <li>Calculate the value of an investment using compound interest</li>
+    <li>Graph y = 2 * (1.5)^x and describe its shape</li>
+    <li>Given a population model y = 500 * (0.98)^t, determine the population after 10 years</li>
+    <li>Find the asymptote of the function y = 4 * (0.5)^x</li>
   </ul>
 </div>
-{/* Topic 6 */}
+
+{/* Topic 8 */}
 <div className="space-y-6">
-  <h2 className="text-3xl font-semibold text-center">Topic 7: Geometry Foundations</h2>
+  <h2 className="text-3xl font-semibold text-center">Topic 8: Geometry Foundations</h2>
   <p className="text-lg text-gray-700 text-center">
     Geometry foundations lay the groundwork for understanding space, shape, and logical reasoning. These basic principles are essential for exploring everything from angles and triangles to circles and 3D solids.
   </p>
@@ -382,9 +504,9 @@ export default function TenthGradeContent() {
     <li>Draw a transversal cutting two parallel lines and label all angles</li>
   </ul>
 </div>
-{/* Topic 8 */}
+{/* Topic 9 */}
 <div className="space-y-6">
-  <h2 className="text-3xl font-semibold text-center">Topic 8: Congruence and Transformations</h2>
+  <h2 className="text-3xl font-semibold text-center">Topic 9: Congruence and Transformations</h2>
   <p className="text-lg text-gray-700 text-center">
     Congruence and transformations help us understand how shapes move and relate to each other. These foundational ideas are crucial for everything from design and engineering to mathematical proof and reasoning.
   </p>
@@ -455,9 +577,9 @@ export default function TenthGradeContent() {
   </ul>
 </div>
 
-{/* Topic 9 */}
+{/* Topic 10 */}
 <div className="space-y-6">
-  <h2 className="text-3xl font-semibold text-center">Topic 9: Trigonometry Basics</h2>
+  <h2 className="text-3xl font-semibold text-center">Topic 10: Trigonometry Basics</h2>
   <p className="text-lg text-gray-700 text-center">
     Trigonometry is the study of relationships between the angles and sides of triangles. It&apos;s widely used in fields like physics, engineering, and astronomy.
   </p>
@@ -504,6 +626,70 @@ export default function TenthGradeContent() {
   </ul>
 </div>
 
+ {/* Topic 11 */}
+<div className="space-y-6">
+  <h2 className="text-3xl font-semibold text-center">Topic 11: Rational & Radical Expressions</h2>
+  <p className="text-lg text-gray-700 text-center">
+    Rational and radical expressions extend algebra into fractions with polynomials and roots. Mastering these skills is essential for solving complex equations and applying algebra in science and engineering.
+  </p>
+
+  <h3 className="text-2xl font-semibold">Simplifying Rational Expressions</h3>
+  <p>
+    Rational expressions are fractions where the numerator and/or denominator are polynomials. Simplifying involves factoring and canceling common factors.
+  </p>
+  <ul className="list-disc ml-6">
+    <li>Factor both numerator and denominator</li>
+    <li>Cancel out common factors</li>
+    <li>State restrictions: values that make the denominator zero are excluded</li>
+  </ul>
+  <p><strong>Example:</strong> (x² - 9) / (x² - x - 6) simplifies to (x + 3)/(x - 3), x ≠ 3, -2</p>
+
+  <h3 className="text-2xl font-semibold mt-6">Solving Rational Equations</h3>
+  <p>
+    Rational equations contain one or more rational expressions. Solve by finding a common denominator, multiplying to eliminate fractions, and checking for excluded values.
+  </p>
+  <ul className="list-disc ml-6">
+    <li>Multiply both sides by the least common denominator (LCD)</li>
+    <li>Simplify and solve like a regular equation</li>
+    <li>Check for extraneous solutions (values that make any denominator zero)</li>
+  </ul>
+
+  <h3 className="text-2xl font-semibold mt-6">Radical Expressions</h3>
+  <p>
+    Radical expressions involve roots, such as square roots or cube roots. Simplifying these is essential for solving equations and preparing for topics like quadratic formulas and geometry.
+  </p>
+  <ul className="list-disc ml-6">
+    <li>√a × √b = √(ab)</li>
+    <li>√(a²) = |a|</li>
+    <li>Rationalizing the denominator means rewriting the expression so there are no radicals in the denominator</li>
+  </ul>
+
+  <h3 className="text-2xl font-semibold mt-6">Operations with Radicals</h3>
+  <p>
+    You can add, subtract, multiply, and divide radical expressions, but only like radicals can be added or subtracted.
+  </p>
+  <ul className="list-disc ml-6">
+    <li>√2 + √2 = 2√2</li>
+    <li>√5 + √3 can't be simplified further</li>
+    <li>Use distributive property and FOIL when multiplying binomials with radicals</li>
+  </ul>
+
+  <h3 className="text-2xl font-semibold mt-6">Real-World Applications</h3>
+  <ul className="list-disc ml-6">
+    <li>Physics formulas with inverse and square root relationships</li>
+    <li>Geometry problems involving distances and areas</li>
+    <li>Engineering calculations that involve changing rates or volumes</li>
+  </ul>
+
+  <h3 className="text-2xl font-semibold mt-6">Practice Problems</h3>
+  <ul className="list-disc ml-6">
+    <li>Simplify (x² - 4) / (x² - x - 6) and state restrictions</li>
+    <li>Solve (1/x) + (1/2) = (1/3) and check for extraneous solutions</li>
+    <li>Simplify √(50) and express in simplest radical form</li>
+    <li>Rationalize the denominator of 5 / √3</li>
+    <li>Multiply (√2 + 3)(√2 - 3)</li>
+  </ul>
+</div>
 </div>
       </div>
     );
