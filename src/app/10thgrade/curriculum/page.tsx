@@ -3,7 +3,7 @@ export default function Grade10CurriculumPage() {
       <div className="p-8">
         <h1 className="text-4xl font-bold text-center">10th Grade Math Timeline</h1>
         <p className="mt-4 text-lg text-center">
-          Click on each topic to explore the key concepts you'll learn throughout 10th grade math, along with why they're important.
+          Click on each topic to explore the key concepts you&apos;ll learn throughout 10th grade math, along with why they&apos;re important.
         </p>
   
         <div className="mt-8 space-y-6">
@@ -63,7 +63,7 @@ export default function Grade10CurriculumPage() {
             <summary className="cursor-pointer font-semibold text-lg"> 6. Rational & Radical Expressions</summary>
             <ul className="mt-2 list-disc list-inside space-y-2">
               <li><strong>Simplifying Rational Expressions:</strong> Work with fractions made of polynomials and identify values that make them undefined.</li>
-              <li><strong>Solving Rational Equations:</strong> Use algebra to find solutions and understand when those solutions don't work due to restrictions.</li>
+              <li><strong>Solving Rational Equations:</strong> Use algebra to find solutions and understand when those solutions don&apos;t work due to restrictions.</li>
               <li><strong>Radical Expressions:</strong> Learn to simplify square roots and other radicals, preparing you for advanced algebra and geometry problems.</li>
               <li><strong>Operations with Radicals:</strong> Perform algebraic operations with roots, important for understanding physical formulas and rates of change.</li>
             </ul>
