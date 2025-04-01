@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 
 export default function TenthGradeContent() {
   return (
@@ -10,24 +10,24 @@ export default function TenthGradeContent() {
         <div className="space-y-6">
           <h2 className="text-3xl font-semibold text-center">Topic 1: Linear Equations</h2>
           <p className="text-lg text-gray-700 text-center">
-            Linear equations are the building blocks of algebra. This topic teaches you how to work with and understand equations that describe straight-line relationships.
+            {'Linear equations are the building blocks of algebra. This topic teaches you how to work with and understand equations that describe straight-line relationships.'}
           </p>
 
           <h3 className="text-2xl font-semibold"> What is a Linear Equation?</h3>
           <p>
-            A linear equation is an equation that forms a straight line when graphed. The most common form is <strong>y = mx + b</strong>, where:
+            {'A linear equation is an equation that forms a straight line when graphed. The most common form is <strong>y = mx + b</strong>, where:'}
           </p>
           <ul className="list-disc ml-6 mt-2">
-            <li><strong>m</strong> is the slope – it shows the rate of change or steepness of the line</li>
-            <li><strong>b</strong> is the y-intercept – the point where the line crosses the y-axis</li>
+            <li><strong>m</strong> {'is the slope and it shows the rate of change or steepness of the line'}</li>
+            <li><strong>b</strong> {'is the y-intercept and the point where the line crosses the y-axis'}</li>
           </ul>
 
           <h3 className="text-2xl font-semibold mt-6"> Understanding Slope</h3>
           <p>
-            Slope is the "rise over run" – how much y changes for every change in x.
+            Slope is the "rise over run" which is how much y changes for every change in x.
           </p>
-          <p>To find slope between two points (x₁, y₁) and (x₂, y₂):</p>
-          <p className="font-mono">m = (y₂ - y₁) / (x₂ - x₁)</p>
+          <p>{'To find slope between two points (x₁, y₁) and (x₂, y₂):'}</p>
+          <p className="font-mono">{'m = (y₂ - y₁) / (x₂ - x₁)'}</p>
 
           <h3 className="text-2xl font-semibold mt-6"> Solving Linear Equations</h3>
           <p>Step-by-step example: Solve <strong>2x - 3 = 7</strong></p>
@@ -37,8 +37,8 @@ export default function TenthGradeContent() {
           </ol>
 
           <h3 className="text-2xl font-semibold mt-6"> Distributive Property</h3>
-          <p>Used when the equation has parentheses: a(b + c) = ab + ac</p>
-          <p>Example: Solve 3(x - 2) = 9</p>
+          <p>{'Used when the equation has parentheses: a(b + c) = ab + ac'}</p>
+          <p>{'Example: Solve 3(x - 2) = 9'}</p>
           <ol className="list-decimal ml-6">
             <li>Distribute: 3x - 6 = 9</li>
             <li>Add 6: 3x = 15</li>
@@ -48,7 +48,7 @@ export default function TenthGradeContent() {
           <h3 className="text-2xl font-semibold mt-6"> Graphing Linear Equations</h3>
           <p>Steps:</p>
           <ol className="list-decimal ml-6">
-            <li>Identify slope (m) and intercept (b) in y = mx + b</li>
+            <li>{'Identify slope (m) and intercept (b) in y = mx + b'}</li>
             <li>Plot the y-intercept on the y-axis</li>
             <li>Use the slope to find another point: rise/run</li>
             <li>Draw a straight line through the points</li>
@@ -57,7 +57,7 @@ export default function TenthGradeContent() {
           <h3 className="text-2xl font-semibold mt-6"> Real-World Applications</h3>
           <p>Linear equations model things like:</p>
           <ul className="list-disc ml-6">
-            <li>Paychecks (Earnings = rate × hours)</li>
+            <li>{'Paychecks (Earnings = rate × hours)'}</li>
             <li>Distance = speed × time</li>
             <li>Cell phone plans with fixed fees and variable usage</li>
           </ul>
@@ -66,19 +66,10 @@ export default function TenthGradeContent() {
           <p>
             Sometimes equations have:
             <ul className="list-disc ml-6">
-              <li><strong>No solution:</strong> e.g., x + 2 = x + 5 (false)</li>
-              <li><strong>Infinite solutions:</strong> e.g., 2x + 3 = 2x + 3 (always true)</li>
+              <li><strong>No solution:</strong> e.g., x + 2 = x + 5 {'(false)'}</li>
+              <li><strong>Infinite solutions:</strong> e.g., 2x + 3 = 2x + 3 {'(always true)'}</li>
             </ul>
           </p>
-
-          <h3 className="text-2xl font-semibold mt-6"> Practice Problems</h3>
-          <ul className="list-disc ml-6">
-            <li>Solve: 3x + 4 = 19</li>
-            <li>Simplify and solve: 2(x - 1) + 5 = 11</li>
-            <li>Graph: y = -2x + 5</li>
-            <li>Find the slope between (2, 5) and (4, 9)</li>
-            <li>Write an equation: You rent a kayak for $20 plus $5 per hour</li>
-          </ul>
         </div>
 
         {/* Topic 2 */}
@@ -90,14 +81,14 @@ export default function TenthGradeContent() {
 
           <h3 className="text-2xl font-semibold"> What Does It Mean to Solve a System?</h3>
           <p>
-            You're finding the point(s) where the graphs of the equations intersect. For linear systems, this means where two lines cross.
+            {"You're finding the point(s) where the graphs of the equations intersect. For linear systems, this means where two lines cross."}
           </p>
 
           <h3 className="text-2xl font-semibold mt-6"> Method 1: Graphing</h3>
           <p>1. Graph both equations on the same coordinate plane</p>
           <p>2. Identify the point of intersection</p>
-          <p>3. That point is your solution (x, y)</p>
-          <p><strong>Example:</strong> y = 2x + 1 and y = -x + 4 intersect at (1, 3)</p>
+          <p>{'3. That point is your solution (x, y)'}</p>
+          <p><strong>Example:</strong> y = 2x + 1 and y = -x + 4 intersect at{' (1, 3)'}</p>
 
           <h3 className="text-2xl font-semibold mt-6"> Method 2: Substitution</h3>
           <ol className="list-decimal ml-6">
@@ -119,8 +110,8 @@ export default function TenthGradeContent() {
 
           <h3 className="text-2xl font-semibold mt-6"> Special Cases</h3>
           <ul className="list-disc ml-6">
-            <li><strong>No solution:</strong> parallel lines (same slope, different intercepts)</li>
-            <li><strong>Infinite solutions:</strong> same line (equivalent equations)</li>
+            <li><strong>No solution:</strong> parallel lines {'(same slope, different intercepts)'}</li>
+            <li><strong>Infinite solutions:</strong> same line {'(equivalent equations)'}</li>
           </ul>
 
           <h3 className="text-2xl font-semibold mt-6"> Real-World Example</h3>
@@ -181,8 +172,8 @@ export default function TenthGradeContent() {
           <p>
             Compound inequalities combine two inequalities in one statement using "and" or "or".
           </p>
-          <p>Example (AND): 2 &lt; x ≤ 5 → x is between 2 and 5</p>
-          <p>Example (OR): x &lt; -3 or x &gt; 2 → x is less than -3 or greater than 2</p>
+          <p>Example{' (AND)'}: 2 &lt; x ≤ 5 → x is between 2 and 5</p>
+          <p>Example{' (OR)'}: x &lt; -3 or x &gt; 2 → x is less than -3 or greater than 2</p>
 
           <h3 className="text-2xl font-semibold mt-6"> Real-World Example</h3>
           <p>
@@ -204,16 +195,16 @@ export default function TenthGradeContent() {
           </p>
 
           <h3 className="text-2xl font-semibold"> Function Notation</h3>
-          <p>Instead of using y, we often use f(x) to represent the output when x is the input. For example, if f(x) = 2x + 3, then:</p>
+          <p>Instead of using y, we often use {'f(x)'} to represent the output when x is the input. For example, if f(x) = 2x + 3, then:</p>
           <ul className="list-disc ml-6">
-            <li>f(1) = 2(1) + 3 = 5</li>
-            <li>f(-2) = 2(-2) + 3 = -1</li>
+            <li>{'f(1) = 2(1) + 3 = 5'}</li>
+            <li>{'f(-2) = 2(-2) + 3 = -1'}</li>
           </ul>
 
           <h3 className="text-2xl font-semibold mt-6"> Understanding Domain and Range</h3>
           <p>
-            - The <strong>domain</strong> is the set of all possible input values (x-values).<br />
-            - The <strong>range</strong> is the set of all possible output values (y-values or f(x)).
+            - The <strong>domain</strong> is the set of all possible input values {'(x-values)'}.<br />
+            - The <strong>range</strong> is the set of all possible output values {'(y-values or f(x))'}.
           </p>
 
           <h3 className="text-2xl font-semibold mt-6"> Testing Functions</h3>
@@ -222,36 +213,36 @@ export default function TenthGradeContent() {
           </p>
 
           <h3 className="text-2xl font-semibold mt-6"> Evaluating Functions</h3>
-          <p>Given a function f(x), you substitute the x-value into the expression.</p>
-          <p><strong>Example:</strong> If f(x) = x² - 4x + 7, find f(3)</p>
-          <p>f(3) = 3² - 4(3) + 7 = 9 - 12 + 7 = 4</p>
+          <p>Given a function {'f(x)'}, you substitute the x-value into the expression.</p>
+          <p><strong>Example:</strong> If{' f(x)'} = x² - 4x + 7, find{' f(3)'}</p>
+          <p>{'f(3)'} = 3² - {'4(3)'} + 7 = 9 - 12 + 7 = 4</p>
 
           <h3 className="text-2xl font-semibold mt-6"> Graphing Functions</h3>
           <p>Make a table of values, plot the points, and connect them.</p>
           <ul className="list-disc ml-6">
             <li>Start by choosing x-values</li>
-            <li>Find f(x) for each x</li>
-            <li>Plot the ordered pairs (x, f(x))</li>
+            <li>Find{' f(x)'} for each x</li>
+            <li>Plot the ordered pairs{' (x, f(x))'}</li>
           </ul>
 
           <h3 className="text-2xl font-semibold mt-6"> Linear vs. Nonlinear Functions</h3>
           <ul className="list-disc ml-6">
-            <li>Linear functions form straight lines (constant rate of change)</li>
-            <li>Nonlinear functions (e.g. quadratic) form curves or other shapes</li>
+            <li>Linear functions form straight lines{' (constant rate of change)'}</li>
+            <li>Nonlinear functions {'(e.g. quadratic)'} form curves or other shapes</li>
           </ul>
 
           <h3 className="text-2xl font-semibold mt-6"> Real-World Examples</h3>
           <ul className="list-disc ml-6">
-            <li>Temperature conversion: F(C) = 1.8C + 32</li>
-            <li>Cost calculation: C(x) = 10x + 50 (x is number of items)</li>
-            <li>Distance-time relationships: d(t) = 60t</li>
+            <li>Temperature conversion: {'F(C)'} = 1.8C + 32</li>
+            <li>Cost calculation: {'C(x) '}= 10x + 50 {'(x is number of items)'}</li>
+            <li>Distance-time relationships:{' d(t)'} = 60t</li>
           </ul>
 
           <h3 className="text-2xl font-semibold mt-6"> Practice Problems</h3>
           <ul className="list-disc ml-6">
-            <li>If f(x) = 2x - 5, find f(4)</li>
-            <li>Determine the domain and range of f(x) = x²</li>
-            <li>Graph the function: f(x) = -x + 2</li>
+            <li>{'If f(x) = 2x - 5, find f(4)'}</li>
+            <li>{'Determine the domain and range of f(x)'} = x²</li>
+            <li>Graph the function: {'f(x)'} = -x + 2</li>
             <li>Is the graph of a circle a function? Why or why not?</li>
             <li>Write a real-life situation that can be modeled by a function</li>
           </ul>
@@ -274,7 +265,7 @@ export default function TenthGradeContent() {
           <p>Example: Solve x² + 5x + 6 = 0</p>
           <ol className="list-decimal ml-6">
             <li>Find two numbers that multiply to 6 and add to 5 → 2 and 3</li>
-            <li>Factor: (x + 2)(x + 3) = 0</li>
+            <li>Factor: {'(x + 2)(x + 3)'} = 0</li>
             <li>Set each factor to 0: x + 2 = 0 or x + 3 = 0</li>
             <li>Solutions: x = -2, x = -3</li>
           </ol>
@@ -283,7 +274,7 @@ export default function TenthGradeContent() {
           <p>
             For any quadratic equation <strong>ax² + bx + c = 0</strong>, use the formula:
           </p>
-          <p className="font-mono text-lg">x = [-b ± √(b² - 4ac)] / (2a)</p>
+          <p className="font-mono text-lg">x ={' [-b ± √(b² - 4ac)]'} / {'(2a)'}</p>
           <p>
             This works for all quadratics, even those that can’t be factored.
           </p>
@@ -295,20 +286,20 @@ export default function TenthGradeContent() {
             <li><strong>Axis of symmetry:</strong> a vertical line that divides the parabola evenly</li>
             <li><strong>Direction:</strong> opens up if a &gt; 0, down if a &lt; 0</li>
           </ul>
-          <p>Example: y = x² - 4x + 3 → vertex at (2, -1), opens upward</p>
+          <p>Example: y = x² - 4x + 3 → vertex at {'(2, -1)'}, opens upward</p>
 
           <h3 className="text-2xl font-semibold mt-6"> Completing the Square</h3>
           <p>Used to convert to vertex form or solve when factoring isn’t easy.</p>
           <p>Example: x² + 6x + 5</p>
           <ol className="list-decimal ml-6">
-            <li>Take half of 6 (which is 3), then square it → 9</li>
+            <li>Take half of 6 {'(which is 3)'}, then square it → 9</li>
             <li>Add and subtract 9: x² + 6x + 9 - 4</li>
-            <li>Group and factor: (x + 3)² - 4</li>
+            <li>Group and factor: {'(x + 3)'}² - 4</li>
           </ol>
 
           <h3 className="text-2xl font-semibold mt-6"> Real-World Applications</h3>
           <ul className="list-disc ml-6">
-            <li>Projectile motion (height vs. time)</li>
+            <li>Projectile motion {'(height vs. time)'}</li>
             <li>Area problems with constraints</li>
             <li>Maximizing revenue or profit in business</li>
           </ul>
@@ -338,11 +329,11 @@ export default function TenthGradeContent() {
 
           <h3 className="text-2xl font-semibold mt-6"> Rules of Exponents</h3>
           <ul className="list-disc ml-6">
-            <li><strong>Product Rule:</strong> a^m × a^n = a^(m+n)</li>
-            <li><strong>Quotient Rule:</strong> a^m ÷ a^n = a^(m−n)</li>
-            <li><strong>Power of a Power:</strong> (a^m)^n = a^(mn)</li>
-            <li><strong>Negative Exponents:</strong> a^(-n) = 1 / a^n</li>
-            <li><strong>Zero Exponent:</strong> a⁰ = 1 (if a ≠ 0)</li>
+            <li><strong>Product Rule:</strong> {'a^m × a^n = a^(m+n)'}</li>
+            <li><strong>Quotient Rule:</strong> {'a^m ÷ a^n = a^(m−n)'}</li>
+            <li><strong>Power of a Power:</strong> {'(a^m)^n = a^(mn)'}</li>
+            <li><strong>Negative Exponents:</strong> {'a^(-n) = 1 / a^n'}</li>
+            <li><strong>Zero Exponent:</strong> a⁰ = 1 {'(if a ≠ 0)'}</li>
           </ul>
 
           <h3 className="text-2xl font-semibold mt-6"> What Are Polynomials?</h3>
@@ -354,26 +345,26 @@ export default function TenthGradeContent() {
           </ul>
 
           <h3 className="text-2xl font-semibold mt-6"> Adding & Subtracting Polynomials</h3>
-          <p>Combine like terms (same variable and exponent):</p>
-          <p>(4x² + 3x - 2) + (x² - 5x + 6) = 5x² - 2x + 4</p>
+          <p>Combine like terms {'(same variable and exponent)'}:</p>
+          <p>{'(4x² + 3x - 2) + (x² - 5x + 6)'} = 5x² - 2x + 4</p>
 
-          <h3 className="text-2xl font-semibold mt-6"> Multiplying Polynomials (FOIL Method)</h3>
+          <h3 className="text-2xl font-semibold mt-6"> Multiplying Polynomials {'(FOIL Method)'}</h3>
           <p>Use distributive property for binomials:</p>
-          <p>(x + 3)(x + 2) = x² + 2x + 3x + 6 = x² + 5x + 6</p>
+          <p>{'(x + 3)(x + 2)'} = x² + 2x + 3x + 6 = x² + 5x + 6</p>
 
           <h3 className="text-2xl font-semibold mt-6"> Factoring Polynomials</h3>
           <p>Reverse the multiplication process to find factors.</p>
-          <p>Example: x² + 5x + 6 = (x + 2)(x + 3)</p>
+          <p>Example: x² + 5x + 6 = {'(x + 2)(x + 3)'}</p>
           <p>Methods include:</p>
           <ul className="list-disc ml-6">
             <li>Factoring trinomials</li>
             <li>Factoring by grouping</li>
-            <li>Difference of squares: a² - b² = (a - b)(a + b)</li>
+            <li>Difference of squares: a² - b² = {'(a - b)(a + b)'}</li>
           </ul>
 
           <h3 className="text-2xl font-semibold mt-6"> Real-World Applications</h3>
           <ul className="list-disc ml-6">
-            <li>Modeling area (e.g., A = l × w with polynomial expressions)</li>
+            <li>Modeling area {'(e.g., A = l × w with polynomial expressions)'}</li>
             <li>Profit and cost analysis in business</li>
             <li>Population and growth modeling with exponentials</li>
           </ul>
@@ -381,9 +372,9 @@ export default function TenthGradeContent() {
           <h3 className="text-2xl font-semibold mt-6"> Practice Problems</h3>
           <ul className="list-disc ml-6">
             <li>Simplify: 3x³ × 2x²</li>
-            <li>Evaluate: (2a²b)(3ab²)</li>
-            <li>Add: (2x² + 3x - 1) + (x² - x + 4)</li>
-            <li>Multiply: (x + 4)(x - 2)</li>
+            <li>Evaluate: {'(2a²b)(3ab²)'}</li>
+            <li>Add: {'(2x² + 3x - 1) + (x² - x + 4)'}</li>
+            <li>Multiply: {'(x + 4)(x - 2)'}</li>
             <li>Factor: x² - 9</li>
           </ul>
           {/* Topic 7 */}
@@ -428,8 +419,8 @@ export default function TenthGradeContent() {
             <li><strong>Cube:</strong> V = s³</li>
             <li><strong>Rectangular Prism:</strong> V = l × w × h</li>
             <li><strong>Cylinder:</strong> V = πr²h</li>
-            <li><strong>Pyramid:</strong> V = (1/3) × base area × height</li>
-            <li><strong>Sphere:</strong> V = (4/3)πr³</li>
+            <li><strong>Pyramid:</strong> V = {'(1/3)'} × base area × height</li>
+            <li><strong>Sphere:</strong> V = {'(4/3)'}πr³</li>
           </ul>
 
           <h3 className="text-2xl font-semibold mt-6"> Real-World Applications</h3>
@@ -457,9 +448,9 @@ export default function TenthGradeContent() {
 
           <h3 className="text-2xl font-semibold"> Measures of Central Tendency</h3>
           <ul className="list-disc ml-6">
-            <li><strong>Mean:</strong> the average (add all values, divide by the number of values)</li>
+            <li><strong>Mean:</strong> the average{' (add all values, divide by the number of values)'}</li>
             <li><strong>Median:</strong> the middle value when data is ordered</li>
-            <li><strong>Mode:</strong> the most frequent value(s)</li>
+            <li><strong>Mode:</strong> the most frequent value{'(s)'}</li>
             <li><strong>Range:</strong> difference between highest and lowest values</li>
           </ul>
 
@@ -475,7 +466,7 @@ export default function TenthGradeContent() {
           <p>
             These concepts help measure how data is distributed:
             <ul className="list-disc ml-6">
-              <li><strong>Interquartile Range (IQR):</strong> Q3 - Q1</li>
+              <li><strong>Interquartile Range {'(IQR)'}:</strong> Q3 - Q1</li>
               <li><strong>Standard Deviation:</strong> measures how far data is from the mean</li>
             </ul>
           </p>
@@ -484,15 +475,15 @@ export default function TenthGradeContent() {
           <p>
             Probability is the likelihood of an event happening. It's written as a fraction between 0 and 1:
           </p>
-          <p className="font-mono">P(event) = number of favorable outcomes / total number of outcomes</p>
-          <p>Example: P(rolling a 3 on a die) = 1/6</p>
+          <p className="font-mono">P{'(event)'} = number of favorable outcomes / total number of outcomes</p>
+          <p>Example: P{'(rolling a 3 on a die) '}= 1/6</p>
 
           <h3 className="text-2xl font-semibold mt-6"> Compound Events</h3>
           <ul className="list-disc ml-6">
-            <li><strong>Independent Events:</strong> one event doesn’t affect the other (e.g. coin flips)</li>
+            <li><strong>Independent Events:</strong> one event doesn’t affect the other {'(e.g. coin flips)'}</li>
             <li><strong>Dependent Events:</strong> one event affects the outcome of the next</li>
-            <li><strong>"And" probability (independent):</strong> P(A and B) = P(A) × P(B)</li>
-            <li><strong>"Or" probability (mutually exclusive):</strong> P(A or B) = P(A) + P(B)</li>
+            <li><strong>"And" probability {'(independent)'}:</strong> {'P(A and B) = P(A) × P(B)'}</li>
+            <li><strong>"Or" probability {'(mutually exclusive)'}:</strong> {'P(A or B) = P(A) + P(B)'}</li>
           </ul>
 
           <h3 className="text-2xl font-semibold mt-6"> Real-World Applications</h3>
@@ -508,7 +499,7 @@ export default function TenthGradeContent() {
             <li>Find the mean, median, mode, and range of: 4, 7, 7, 10, 13</li>
             <li>Draw a histogram for this data: 2, 3, 3, 4, 4, 4, 5, 6</li>
             <li>Calculate the probability of drawing a red card from a standard deck</li>
-            <li>A bag has 3 red, 2 blue, and 5 green marbles. What’s P(green)?</li>
+            <li>A bag has 3 red, 2 blue, and 5 green marbles. What’s {'P(green)'}?</li>
             <li>What’s the probability of flipping two heads in a row?</li>
           </ul>
         </div>
