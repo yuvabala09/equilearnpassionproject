@@ -22,16 +22,16 @@ export default function Home() {
       {/* Grade Level Buttons */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-6xl flex-1">
         <Link href="/9thgrade" legacyBehavior>
-          <a className="flex items-center justify-center p-10 text-2xl font-semibold text-center text-white bg-gray-700 rounded-lg hover:bg-gray-800 h-40">9th Grade</a>
+          <a className="flex items-center justify-center p-10 text-2xl font-semibold text-center text-white bg-gray-700 rounded-lg hover:bg-gray-800 h-40">10th Grade Science</a>
         </Link>
         <Link href="/10thgrade" legacyBehavior>
-          <a className="flex items-center justify-center p-10 text-2xl font-semibold text-center text-white bg-gray-700 rounded-lg hover:bg-gray-800 h-40">10th Grade</a>
+          <a className="flex items-center justify-center p-10 text-2xl font-semibold text-center text-white bg-gray-700 rounded-lg hover:bg-gray-800 h-40">10th Grade Math</a>
         </Link>
         <Link href="/11thgrade" legacyBehavior>
-          <a className="flex items-center justify-center p-10 text-2xl font-semibold text-center text-white bg-gray-700 rounded-lg hover:bg-gray-800 h-40">11th Grade</a>
+          <a className="flex items-center justify-center p-10 text-2xl font-semibold text-center text-white bg-gray-700 rounded-lg hover:bg-gray-800 h-40">10th Grade History</a>
         </Link>
         <Link href="/12grade" legacyBehavior>
-          <a className="flex items-center justify-center p-10 text-2xl font-semibold text-center text-white bg-gray-700 rounded-lg hover:bg-gray-800 h-40">12th Grade</a>
+          <a className="flex items-center justify-center p-10 text-2xl font-semibold text-center text-white bg-gray-700 rounded-lg hover:bg-gray-800 h-40">10th Grade Science</a>
         </Link>
       </div>
     </div>
